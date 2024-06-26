@@ -1,7 +1,7 @@
 # ReinforcmentLearning
 All relevant code description for project
 
-Week 1
+# Week 1 and 2 work
 For the code written for frozen lake the description of how the code works is written step by step below:
 Frozen Lake's Q-learning Implementation
 This project we use OpenAI's Gym library's Frozen Lake environment to solve a Q-learning algorithm. A detail description of each step in the implementation is provided below:
@@ -30,6 +30,6 @@ The training loop is the main component of the implementation and it lasts for a
 -The agent chooses whether to explore new actions (by selecting a random action) or exploit its present knowledge (by selecting the action with the greatest Q-value) for each step in an episode.
 - Epsilon, which gradually reduces to favor exploitation as learning advances, serves as the basis for this choice.
 
-Evaluating the Agent 
+Finally we evaluate the Agent 
 We conduct many test events to assess the agent's performance following training. The agent chooses actions in each test episode based on the learnt Q-values. We publish the steps the agent took and the overall number of steps needed to fall into a pit or achieve the goal. This aids in our comprehension of the agent's level of learning the best course of action.
 
