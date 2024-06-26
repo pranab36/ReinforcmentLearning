@@ -36,9 +36,9 @@ We conduct many test events to assess the agent's performance following training
 # Week 3
 I tried to write a code where AI uses best possible stratagies to play game 2048.
 Here below is the step by step explaination of code written for game 2048.
-- Two starting tiles (either two or four) are placed at random vacant spots on a 4x4 game board by the `Game2048` class, which initializes the board with zeros. 
+ - Two starting tiles (either two or four) are placed at random vacant spots on a 4x4 game board by the `Game2048` class, which initializes the board with zeros. 
 With a 90% probability of being a 2 and a 10% chance of being a 4, the `_add_new_tile` function finds vacant spots on the board and adds a new tile. 
-- The `_merge} method updates the score with the value of the combined tiles and compresses a row by deleting zeros and combining adjacent equal tiles.
+-The `_merge} method updates the score with the value of the combined tiles and compresses a row by deleting zeros and combining adjacent equal tiles.
 -If the board changes, the move_left function inserts a new tile and moves all of the tiles to the left, merging them together.
 -The move_right function rotates the board in a horizontal direction, then uses the move_left method to move the tiles to the left before flipping it back to its initial position.
 -The move_up function shifts tiles left, transposes the board (switching rows and columns), and then transposes it back.
