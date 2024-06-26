@@ -52,3 +52,5 @@ Here below is the step by step explaination of code written for game 2048.
  -The AI class's play function keeps trying to make the best move until there are none left. It displays the board following each move and declares "Game Over!" when the round is over.
  -A Game2048 instance is generated in the main execution, and then an AI2048 play method is called to play the game automatically.
 
+# Week 4
+For week 4 content I have just started reading the paper shared by my mentor, so don't have much to write about it now. I will update its content as soon as possible 
