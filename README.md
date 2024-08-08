@@ -37,5 +37,5 @@ We conduct many test events to assess the agent's performance following training
 I tried to write a code where AI uses best possible stratagies to play game 2048.
 
 
-# Week 4
-For week 4 content I have just started reading the paper shared by my mentor, so don't have much to write about it now. I will update its content as soon as possible 
+# Week 4 till final project submission
+worked upon 2048 game code tried to make it more accurate.
